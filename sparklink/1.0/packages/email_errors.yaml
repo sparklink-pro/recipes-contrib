@@ -1,0 +1,4 @@
+email_errors:
+  enabled: "%kernel.debug%"
+  from: "%env(resolve:MAILER_ERRORS_FROM)%"
+  to: "%env(resolve:MAILER_ERRORS_TO)%"

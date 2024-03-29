@@ -1,0 +1,16 @@
+{
+    "bundles": {
+        "Sparklink\\EmailErrorsBundle\\EmailErrorsBundle": [
+            "all"
+        ]
+    },
+    "copy-from-recipe": {
+        "config/": "%CONFIG_DIR%/"
+    },
+    "env": {
+        "#1": "Add the email adresses you want to send the errors from",
+        "MAILER_ERRORS_FROM": "from@adress.com",
+        "#2": "Add the email adresses you want to send the errors to",
+        "MAILER_ERRORS_TO": "to@adress.com"
+    }
+}

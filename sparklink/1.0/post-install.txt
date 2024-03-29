@@ -1,0 +1,1 @@
+* Modify yours MAILER_ERRORS_FROM and MAILER_ERRORS_TO in <fg=green>.env</>
